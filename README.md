@@ -1,0 +1,2 @@
+# VERTIC.co
+BRAND BAJU 
