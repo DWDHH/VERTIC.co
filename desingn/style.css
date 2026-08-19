@@ -1,0 +1,122 @@
+/* --- latar belakang --- */
+body {
+  background-image: url("../image/model.jpeg");
+  margin: 0;
+  padding: 0;
+  font-family: "Arial Narrow", Arial, sans-serif;
+}
+
+/* --- Navbar --- */
+.navbarb {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #787272;
+  padding: 15px 30px; 
+}
+
+.navbarb h5 {
+  color: white;
+  margin: 0;
+  font-size: 24px;
+}
+
+.navbarb ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  gap: 30px; 
+}
+
+.navbarb ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.navbarb ul li a:hover {
+  color: #cbd3dc;
+}
+
+/* --- Teks --- */
+h1, h2, p {
+  color: white;
+  margin-top: 0;
+}
+
+/* ---  Tengah --- */
+.tengah::after {
+  content: "";
+  display: table;
+  clear: both; 
+}
+
+/* --- bagian Kiri --- */
+.sidebar {
+  background-color: #6d6b6b;
+  padding: 60px; 
+  width: 60%;
+  float: left;
+  box-sizing: border-box;
+  min-height: 400px;
+}
+
+.sidebar h1, .sidebar h2, .sidebar p {
+  text-align: left; 
+}
+
+.sidebar p {
+  color: #cbd3dc;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* --- Tombol --- */
+.bsd {
+  background-color: #3a404a;
+  color: white;
+  border: none;
+  text-align: center;
+  font-size: 16px;
+  padding: 12px 20px;
+  cursor: pointer;
+  margin-left: 35%; 
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.bsd:hover {
+  background-color: #4f5866; 
+}
+
+.badge {
+  display: inline-block;
+  padding: 8px 12px;
+  background-color: #826a6a;
+  color: #fff;
+  font-size: 12px;
+  border-radius: 10px;
+  margin-left: 25%; 
+  margin-top: 10px;
+}
+
+.badge span {
+  margin-right: 5px;
+}
+
+/* --- gambarKanan --- */
+.konten {
+  padding: 20px;
+  width: 35%;
+  float: right;
+  box-sizing: border-box;
+}
+
+.konten img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px; 
+}
